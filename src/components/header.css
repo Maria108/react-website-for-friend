@@ -1,0 +1,21 @@
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #101010;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #101010;
+  text-decoration: none;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  /* border: 1px solid transparent; */
+}
