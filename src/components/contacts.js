@@ -3,7 +3,11 @@ import './contacts.css';
 
 class Contacts extends Component {
   render() {
-    return <div className="contacts">Contacts</div>;
+    return (
+      <div className="contacts-main">
+        <p>Contacts</p>
+      </div>
+    );
   }
 }
 

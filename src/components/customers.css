@@ -1,0 +1,9 @@
+.customer-main {
+  background-image: url('../images/water.jpeg');
+  background-size: cover;
+  padding-bottom: 100px;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

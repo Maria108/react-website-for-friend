@@ -3,7 +3,11 @@ import './customers.css';
 
 class Customers extends Component {
   render() {
-    return <div className="Customers">Customers</div>;
+    return (
+      <div className="customer-main">
+        <p>Customers</p>
+      </div>
+    );
   }
 }
 
