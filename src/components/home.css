@@ -1,4 +1,22 @@
-body {
+.home-main {
   background-image: url('../images/water.jpeg');
   background-size: cover;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.main-info {
+  text-align: center;
+  font-size: 30px;
+  background-color: #ffffffa6;
+  padding: 1em;
+  margin-top: 100px;
+  border-radius: 1em;
+  box-shadow: 0px 0px 10px -3px #000;
 }
