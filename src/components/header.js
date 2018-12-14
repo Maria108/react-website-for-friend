@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <Navbar>
         <Navbar.Header>
-          <Navbar.Brand>LOGO</Navbar.Brand>
+          <Navbar.Brand class="logo">LOGO</Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>

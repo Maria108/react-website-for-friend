@@ -19,8 +19,15 @@ a:focus {
   margin-bottom: 0%;
   border: none;
   border-radius: 0%;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
 }
 
 .navbar-default {
   background-color: black;
 }
+
+/* .navbar-brand {
+  background-image: url('../images/favicon.png');
+  margin-top: 10px;
+} */

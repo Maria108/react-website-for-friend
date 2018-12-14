@@ -22,7 +22,7 @@ class About extends Component {
         <div className="about pic-two">
           <Grid>
             <div className="about-info">
-              <h1>Why Choose Gravity Colon Hydrotherapy?</h1>
+              <h1>Why Choose Colon Hydrotherapy?</h1>
               <p>
                 Gravity Colon Hydrotherapy uses the natural flow of gravity to introduce water into the body rather than
                 using a machine which unnaturally forces water into the colon. Each individual is unique and using

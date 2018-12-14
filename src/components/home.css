@@ -1,5 +1,6 @@
 .home-main {
   background-image: url('../images/water.jpeg');
+  background-attachment: fixed;
   background-size: cover;
   padding-bottom: 100px;
   height: auto;
