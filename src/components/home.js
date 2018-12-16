@@ -1,17 +1,55 @@
 import React, { Component } from 'react';
 import './home.css';
-import { Grid } from 'react-bootstrap';
+import { Row, Col, Grid, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 class Home extends Component {
   render() {
     return (
-      <div class="home-main">
-        <Grid>
-          <div className="main-info">
-            <h1>Welcome!</h1>
-            <p>This is a simple hero unit, a simple jumbotron-style example.</p>
-          </div>
-        </Grid>
+      <div>
+        <div className="about pic-one">
+          <Grid>
+            <div className="about-info">
+              <h1>Park Slope Colonics</h1>
+              <p>Explore.</p>
+            </div>
+          </Grid>
+        </div>
+        <div className="about pic-two">
+          <Grid>
+            <Row>
+              <Col xs={6} md={4}>
+                <div className="image-circle">
+                  <p className="img-about">About colonic</p>
+                </div>
+              </Col>
+              <Col xs={6} md={4}>
+                <div className="image-circle">
+                  <p className="img-about">Do's & Dont's</p>
+                </div>
+              </Col>
+              <Col xs={6} md={4}>
+                <div className="image-circle">
+                  <p className="img-about">Testimonials</p>
+                </div>
+              </Col>
+            </Row>
+          </Grid>
+        </div>
+        <div className="about pic-three">
+          <Grid>
+            <div className="about-info">
+              <h1>Benefits of Gravity Colon Hydrotherapy</h1>
+              <ListGroup>
+                <ListGroupItem>Flatter Stomach</ListGroupItem>
+                <ListGroupItem>Clear Glowing Skin</ListGroupItem>
+                <ListGroupItem>Eliminate Bloating</ListGroupItem>
+                <ListGroupItem>Reduce Inflammation</ListGroupItem>
+                <ListGroupItem>Eliminate Constipation</ListGroupItem>
+                <ListGroupItem>Relieve Allergies</ListGroupItem>
+              </ListGroup>
+            </div>
+          </Grid>
+        </div>
       </div>
     );
   }
