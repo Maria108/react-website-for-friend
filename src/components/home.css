@@ -38,3 +38,10 @@ h1 {
   font-size: 40px;
   line-height: 300px;
 }
+
+.pic-four {
+  background-image: url('../images/lena.jpg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right;
+}

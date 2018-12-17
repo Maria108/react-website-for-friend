@@ -6,14 +6,20 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="about pic-one">
-          <Grid>
-            <div className="about-info">
-              <h1>Park Slope Colonics</h1>
-              <p>Explore.</p>
-            </div>
-          </Grid>
-        </div>
+        <Grid>
+          <div className="about pic-one">
+            <Row>
+              <Col xs={6} md={5}>
+                <div />
+              </Col>
+              <Col xs={6} md={7}>
+                <div className="on-top">
+                  <p>Park Slope colonic Park Slope colonic Park Slope colonic Park Slope colonic</p>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </Grid>
         <div className="about pic-two">
           <Grid>
             <Row>
@@ -35,21 +41,18 @@ class Home extends Component {
             </Row>
           </Grid>
         </div>
-        <div className="about pic-three">
-          <Grid>
-            <div className="about-info">
-              <h1>Benefits of Gravity Colon Hydrotherapy</h1>
-              <ListGroup>
-                <ListGroupItem>Flatter Stomach</ListGroupItem>
-                <ListGroupItem>Clear Glowing Skin</ListGroupItem>
-                <ListGroupItem>Eliminate Bloating</ListGroupItem>
-                <ListGroupItem>Reduce Inflammation</ListGroupItem>
-                <ListGroupItem>Eliminate Constipation</ListGroupItem>
-                <ListGroupItem>Relieve Allergies</ListGroupItem>
-              </ListGroup>
-            </div>
-          </Grid>
-        </div>
+        <Grid>
+          <div className="about pic-four">
+            <Row>
+              <Col xs={6} md={7}>
+                <div className="on-top">
+                  <p>Hi I'm Lena and I'm your therapist. I'm very cool and professional, you can trust me your butt.</p>
+                </div>
+              </Col>
+              <Col xs={6} md={5} />
+            </Row>
+          </div>
+        </Grid>
       </div>
     );
   }
