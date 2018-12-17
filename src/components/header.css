@@ -1,6 +1,7 @@
 a {
   color: #ccccdb;
   text-decoration: none;
+  margin: 0px !important;
 }
 
 a:hover {
@@ -27,7 +28,7 @@ a:focus {
   background-color: white;
 }
 
-/* .navbar-brand {
-  background-image: url('../images/favicon.png');
-  margin-top: 10px;
-} */
+.main-logo {
+  margin-right: 190px;
+  font-size: 30px;
+}
