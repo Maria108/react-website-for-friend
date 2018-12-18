@@ -20,20 +20,20 @@ class Home extends Component {
             </Row>
           </div>
         </Grid>
-        <div className="about pic-two">
+        <div className="about-two pic-two">
           <Grid>
             <Row>
-              <Col xs={6} md={4}>
+              <Col xs={12} md={4}>
                 <div className="image-circle">
                   <p className="img-about">About colonic</p>
                 </div>
               </Col>
-              <Col xs={6} md={4}>
+              <Col xs={12} md={4}>
                 <div className="image-circle">
                   <p className="img-about">Do's & Dont's</p>
                 </div>
               </Col>
-              <Col xs={6} md={4}>
+              <Col xs={12} md={4}>
                 <div className="image-circle">
                   <p className="img-about">Testimonials</p>
                 </div>

@@ -45,3 +45,8 @@ h1 {
   background-size: 70%;
   background-position: right;
 }
+
+.about-two {
+  padding-bottom: 100px;
+  height: auto;
+}
