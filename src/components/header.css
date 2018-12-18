@@ -15,8 +15,7 @@ a:focus {
 }
 
 .navbar {
-  position: relative;
-  min-height: 50px;
+  min-height: 60px;
   margin-bottom: 0%;
   border: none;
   border-radius: 0%;
@@ -30,5 +29,13 @@ a:focus {
 
 .main-logo {
   margin-right: 190px;
+  font-size: 30px;
+}
+
+.navbar-header {
+  margin-left: 400px !important;
+}
+
+.navbar-brand {
   font-size: 30px;
 }

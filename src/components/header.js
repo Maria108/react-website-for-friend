@@ -6,12 +6,15 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 class Header extends Component {
   render() {
     return (
-      <Navbar>
+      <Navbar fixedTop>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <Link to="/">Park Slope Colonic</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} className="main-logo">
-              <Link to="/">Park Slope Colonic</Link>
-            </NavItem>
             <NavItem eventKey={2}>
               <Link to="/About">About</Link>
             </NavItem>
