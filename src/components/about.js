@@ -10,12 +10,6 @@ class About extends Component {
           <Grid>
             <div className="about-info">
               <h1>What is Gravity Colon Hydrotherapy?</h1>
-              <p>
-                Gravity Colon Hydrotherapy uses the natural flow of gravity to introduce water into the body. Using the
-                latest in water filtration technology, our custom-made treatment rooms use ultra-purified water to
-                dissolve and carry wastes away. Our team is certified in the Woods Method of Gravity Colonics and is
-                additionally trained in-house before joining our team. Sessions generally last 45 minutes to one hour.
-              </p>
             </div>
           </Grid>
         </div>
