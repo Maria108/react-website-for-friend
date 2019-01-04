@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div>
         <Grid>
-          <div className="about picture-one">
+          <div className="main-div picture-one">
             <Row>
               <Col xs={6} md={12}>
                 <div className="on-top">
@@ -89,7 +89,7 @@ class About extends Component {
           </Grid>
         </div>
         <Grid>
-          <div className="about picture-four">
+          <div className="main-div picture-four">
             <Row>
               <Col xs={6} md={12}>
                 <div className="on-top">

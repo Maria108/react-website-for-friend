@@ -14,21 +14,13 @@
   line-height: 30px;
 }
 
-.about {
+.main-div {
   /* background-size: cover; */
   padding-bottom: 100px;
   height: auto;
   min-height: 90vh;
 }
 
-.pic-one {
-  background-image: url('../images/lena.jpg');
-  background-repeat: no-repeat;
-  background-size: 70%;
-  /* background-attachment: fixed; */
-  background-position: right;
-  /* background-attachment: fixed; */
-}
 
 .picture-one {
   background-image: url('../images/water.jpg');
@@ -73,17 +65,4 @@
   background-color: rgba(255, 255, 255, 0);
   border: none;
   text-align: left;
-}
-
-.on-top {
-  text-align: left;
-  font-size: 30px;
-  background-color: #ffffffa6;
-  margin-top: 25%;
-  margin-bottom: 40px;
-  padding: 30px;
-  box-shadow: 0px 0px 10px -3px #000;
-  font-family: 'ZCOOL XiaoWei', serif;
-  color: black;
-  line-height: 20px;
 }

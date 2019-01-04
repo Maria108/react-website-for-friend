@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <Grid>
-          <div className="about pic-one">
+          <div className="main-div pic-one">
             <Row>
               <Col xs={6} md={7}>
                 <div className="on-top">
@@ -22,28 +22,29 @@ class Home extends Component {
                   <p className="points">/> Eliminate bloat</p>
                 </div>
               </Col>
-              <Col xs={6} md={5}>
-                <div />
-              </Col>
             </Row>
           </div>
         </Grid>
-        <div className="about-two pic-two">
+        <div className="second-section">
           <Grid>
             <Row>
               <Col xs={12} md={4}>
-                <div className="image-circle">
-                  <p className="img-about">About colonic</p>
+                <div className="page-link">
+                  <Link className="img-page-link" to="/About">
+                    About colonic
+                  </Link>
                 </div>
               </Col>
               <Col xs={12} md={4}>
-                <div className="image-circle">
-                  <p className="img-about">Do's & Dont's</p>
+                <div className="page-link">
+                  <Link className="img-page-link" to="/About">
+                    Do's & Dont'
+                  </Link>
                 </div>
               </Col>
               <Col xs={12} md={4}>
-                <div className="image-circle">
-                  <Link className="img-about" to="/Customers">
+                <div className="page-link">
+                  <Link className="img-page-link" to="/Customers">
                     Testimonials
                   </Link>
                 </div>
@@ -52,7 +53,7 @@ class Home extends Component {
           </Grid>
         </div>
         <Grid>
-          <div className="about pic-four">
+          <div className="main-div pic-four">
             <Row>
               <Col xs={6} md={5} />
               <Col xs={6} md={7}>
