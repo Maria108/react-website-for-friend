@@ -8,18 +8,27 @@ class About extends Component {
     return (
       <div>
         <Grid>
-          <div className="main-div picture-one">
+          <div className="main-div picture-about">
             <Row>
               <Col xs={6} md={12}>
-                <div className="on-top">
-                  <p>About Colonic</p>
+                <div className="about-colon">
+                  <h1>About Colonic</h1>
                 </div>
                 <div>
-                  <p className="points">/> Detoxify your body</p>
-                  <p className="points">/> Reshape the colon</p>
-                  <p className="points">/> Boost immunity</p>
-                  <p className="points">/> Increase energy</p>
-                  <p className="points">/> Eliminate bloat</p>
+                  <p className="info-about-colon">
+                    Colonic blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
+                    blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah
+                    Blah blah blah Blah blah blah Blah blah blah blah blah Blah blah blah Blah blah blah Blah blah blah
+                    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
+                    blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah blah Blah blah blah
+                    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
+                    blah Blah blah blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
+                    blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
+                    blah blah Blah blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
+                    blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah blah blah Blah blah blah Blah blah
+                    blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
+                    blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -89,18 +98,28 @@ class About extends Component {
           </Grid>
         </div>
         <Grid>
-          <div className="main-div picture-four">
+          <div className="main-div picture-about">
             <Row>
               <Col xs={6} md={12}>
-                <div className="on-top">
-                  <p>Hi I'm Lena and I'm your therapist. I'm very cool and professional, you can trust me your butt.</p>
+                <div className="about-colon">
+                  <h1>Do's and Dont's</h1>
                 </div>
-                <div>
-                  <p className="points">/> Detoxify your body</p>
-                  <p className="points">/> Reshape the colon</p>
-                  <p className="points">/> Boost immunity</p>
-                  <p className="points">/> Increase energy</p>
-                  <p className="points">/> Eliminate bloat</p>
+                <div className="info-dos">
+                  <p className="points">
+                    <i class="far fa-check-square" /> Detoxify your body
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Reshape the colon
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Boost immunity
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Increase energy
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Eliminate bloat
+                  </p>
                 </div>
               </Col>
             </Row>

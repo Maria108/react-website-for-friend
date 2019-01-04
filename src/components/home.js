@@ -15,11 +15,21 @@ class Home extends Component {
                   <p>Powerful detoxication methods for healthy life</p>
                 </div>
                 <div>
-                  <p className="points">/> Detoxify your body</p>
-                  <p className="points">/> Reshape the colon</p>
-                  <p className="points">/> Boost immunity</p>
-                  <p className="points">/> Increase energy</p>
-                  <p className="points">/> Eliminate bloat</p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Detoxify your body
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Reshape the colon
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Boost immunity
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Increase energy
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Eliminate bloat
+                  </p>
                 </div>
               </Col>
             </Row>

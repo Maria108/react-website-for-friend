@@ -14,6 +14,27 @@
   line-height: 30px;
 }
 
+.about-colon {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+}
+
+.info-about-colon {
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+}
+
+.info-dos {
+  padding: 10px 70px 10px 70px;
+  text-align: left;
+  color: #000;
+  font-size: 25px;
+}
+
 .main-div {
   /* background-size: cover; */
   padding-bottom: 100px;
@@ -22,7 +43,7 @@
 }
 
 
-.picture-one {
+.picture-about {
   background-image: url('../images/water.jpg');
   background-repeat: no-repeat;
   background-size: cover;
