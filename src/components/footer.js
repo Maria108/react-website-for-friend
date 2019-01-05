@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
-import { Row, Col, Grid, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Row, Col, Grid } from 'react-bootstrap';
 
 class Footer extends Component {
   render() {
@@ -12,16 +12,24 @@ class Footer extends Component {
             <Col xs={6} md={6}>
               <div>
                 <p>Contact</p>
-                <p>370 8th Ave New York</p>
-                <p>917-654-2345</p>
+                <p>
+                  <i class="fas fa-map-marker-alt" /> 370 8th Ave New York
+                </p>
+                <p>
+                  <i class="fas fa-phone" /> 917-654-2345
+                </p>
               </div>
             </Col>
             <Col xs={6} md={6}>
               <div>
                 <p>Visit</p>
-                <Link to="/instagram">Instagram</Link>
+                <Link to="/instagram">
+                  <i class="fab fa-instagram" /> Instagram
+                </Link>
                 <p>
-                  <Link to="/About">Facebook</Link>
+                  <Link to="/About">
+                    <i class="fab fa-facebook-square" /> Facebook
+                  </Link>
                 </p>
               </div>
             </Col>

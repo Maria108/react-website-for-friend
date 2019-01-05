@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './contacts.css';
 import { Grid } from 'react-bootstrap';
+import Maps from './map.js';
 
 class Contacts extends Component {
   render() {
@@ -13,6 +14,8 @@ class Contacts extends Component {
             <p>@elenaBykova</p>
             <p>reach.elena.bykova@gmail.com</p>
           </div>
+          <h3>My Google Maps Demo</h3>
+          <Maps />
         </Grid>
       </div>
     );

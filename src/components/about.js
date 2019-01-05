@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './about.css';
-import { Link } from 'react-router-dom';
 import { Row, Col, Grid } from 'react-bootstrap';
 
 class About extends Component {
@@ -39,8 +38,11 @@ class About extends Component {
             <Row>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 1</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-toilet" />
+                  </div>
+                  <p className="myth">Myth 1 Dependency</p>
+                  <p className="about-myth">
                     Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
                     blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
                     blah blah Blah blah blah Blah blah blah
@@ -49,8 +51,11 @@ class About extends Component {
               </Col>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 2</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-shower" />
+                  </div>
+                  <p className="myth">Myth 2 Flushing out intestinal flora</p>
+                  <p className="about-myth">
                     Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
                     blah Blah blah blah Blah
                   </p>
@@ -58,8 +63,11 @@ class About extends Component {
               </Col>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 3</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-bug" />
+                  </div>
+                  <p className="myth">Myth 3 Infection</p>
+                  <p className="about-myth">
                     Blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah
                     Blah blah blah Blah blah blah Blah blah
                   </p>
@@ -69,8 +77,11 @@ class About extends Component {
             <Row>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 4</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-poo-storm" />
+                  </div>
+                  <p className="myth">Myth 4 Trauma</p>
+                  <p className="about-myth">
                     Blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
                     blah blah Blah blah blah Blah blah blah
                   </p>
@@ -78,8 +89,11 @@ class About extends Component {
               </Col>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 5</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-haykal" />
+                  </div>
+                  <p className="myth">Myth 5 Pain during the procedure</p>
+                  <p className="about-myth">
                     Blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
                     blah blah Blah blah blah Blah blah blah
                   </p>
@@ -87,8 +101,11 @@ class About extends Component {
               </Col>
               <Col xs={12} md={4}>
                 <div className="image-about-about">
-                  <p className="img-about-about">Myth 6</p>
-                  <p className="myth">
+                  <div className="poop-icon">
+                    <i class="fas fa-poo" />
+                  </div>
+                  <p className="myth">Myth 6 Unnecessary</p>
+                  <p className="about-myth">
                     Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah
                     blah Blah blah blah Blah Blah blah blah
                   </p>
