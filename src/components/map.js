@@ -3,15 +3,15 @@ import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-const API_KEY = process.env.GOOGLE_MAP_API_KEY;
+const API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 
 class Maps extends Component {
   static defaultProps = {
     center: {
-      lat: 59.95,
-      lng: 30.33,
+      lat: 40.670848,
+      lng: -73.98586,
     },
-    zoom: 11,
+    zoom: 15,
   };
 
   render() {
@@ -24,7 +24,7 @@ class Maps extends Component {
           defaultZoom={this.props.zoom}
           yesIWantToUseGoogleMapApiInternals
         >
-          <AnyReactComponent lat={59.955413} lng={30.337844} text={'Kreyser Avrora'} />
+          <AnyReactComponent lat={40.670848} lng={-73.98586} text={<i class="fas fa-map-marker-alt" />} />
         </GoogleMapReact>
       </div>
     );
