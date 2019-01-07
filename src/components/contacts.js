@@ -25,19 +25,19 @@ class Contacts extends Component {
               </Col>
               <Col xs={12} md={6}>
                 <div className="my-maps">
-                  <MapContainer />
-                </div>
-                <Row>
+                  <Maps />
                   <div className="address">
-                    <Col xs={12} md={6}>
-                      <p>313 7th St Brooklyn</p>
-                    </Col>
-                    <Col xs={12} md={6}>
-                      {' '}
-                      <Link to="/map">Direction</Link>
-                    </Col>
+                    <Row>
+                      <Col xs={12} md={6}>
+                        <p>313 7th St Brooklyn</p>
+                      </Col>
+                      <Col xs={12} md={6}>
+                        {' '}
+                        <Link to="/map">Direction</Link>
+                      </Col>
+                    </Row>
                   </div>
-                </Row>
+                </div>
               </Col>
             </Row>
           </div>
