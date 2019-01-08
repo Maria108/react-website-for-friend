@@ -42,6 +42,10 @@
   min-height: 90vh;
 }
 
+.opacity-div {
+  /* height: auto; */
+  background-color: #ffffff60;
+}
 
 .picture-about {
   background-image: url('../images/water.jpg');

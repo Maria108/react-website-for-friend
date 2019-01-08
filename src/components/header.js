@@ -9,7 +9,7 @@ class Header extends Component {
       <Navbar fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">Park Slope Colonic</Link>
+            <Link to="/">Park Slope Colonics</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

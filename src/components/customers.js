@@ -9,7 +9,7 @@ class Customers extends Component {
         <Grid align="center">
           <div class="customers-main">
             <Grid>
-              <div className="custom-info">
+              <div className="top-review">
                 <p>-This is amazing. Feel so much better. Lena is the best therapist in the world!-</p>
                 <h1 className="testimon">-Maria A-</h1>
               </div>
