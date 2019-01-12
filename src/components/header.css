@@ -15,31 +15,38 @@ a:focus {
 }
 
 .navbar {
-  min-height: 60px;
+  min-height: 100px;
   margin-bottom: 0%;
   border: none;
   border-radius: 0%;
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size: 20px;
+  /* font-family: 'ZCOOL XiaoWei', serif; */
+  /* font-family: 'Play', sans-serif; */
+  /* font-family: 'Staatliches'; */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
+  /* margin-top: 30px; */
 }
 
 .navbar-default {
   background-color: white;
 }
 
-.main-logo {
-  margin-right: 190px;
-  font-size: 30px;
-}
-
 .navbar-brand {
-  position: absolute;
-  width: 100%;
+  /* position: absolute; */
+  /* width: 100%;
   left: 0;
   top: 15px;
   text-align: center;
   padding: 0;
   font-size: 30px;
-  color: black !important;
+  color: black !important; */
+  font-size: 25px;
+  margin-top: 30px !important;
+
+}
+
+.navbar-right {
+  margin-top: 30px !important;
 }
