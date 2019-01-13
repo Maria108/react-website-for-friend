@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class Header extends Component {
@@ -16,16 +17,19 @@ class Header extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={2}>
+              <Link to="/">HOME</Link>
+            </NavItem>
+            <NavItem eventKey={2}>
               <Link to="/About">ABOUT</Link>
             </NavItem>
             <NavItem eventKey={2}>
-              <Link to="/About">BLOG</Link>
+              <Link to="/Blog">BLOG</Link>
             </NavItem>
             <NavItem eventKey={2}>
-              <Link to="/About">HOW TO PREPARE</Link>
+              <Link to="/About#how-to-prepare">HOW TO PREPARE</Link>
             </NavItem>
             <NavItem eventKey={2}>
-              <Link to="/About">FAQ AND PRICING</Link>
+              <Link to="/Faq">FAQ AND PRICING</Link>
             </NavItem>
             <NavItem eventKey={3}>
               <Link to="/Customers">TESTIMONIALS</Link>
