@@ -6,6 +6,8 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import Home from './components/home.js';
 import About from './components/about.js';
+import Blog from './components/blog.js';
+import Faq from './components/faq.js';
 import Customers from './components/customers.js';
 import Contacts from './components/contacts.js';
 import Maps from './components/map.js';
@@ -18,6 +20,8 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/About" component={About} />
+          <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/Faq" component={Faq} />
           <Route exact path="/Customers" component={Customers} />
           <Route exact path="/Contacts" component={Contacts} />
           <Route exact path="/Maps" component={Maps} />
