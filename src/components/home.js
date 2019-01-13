@@ -16,19 +16,19 @@ class Home extends Component {
                 </div>
                 <div>
                   <p className="points">
-                    <i class="far fa-check-square" /> Detoxify your body
-                  </p>
-                  <p className="points">
-                    <i class="far fa-check-square" /> Reshape the colon
-                  </p>
-                  <p className="points">
-                    <i class="far fa-check-square" /> Boost immunity
+                    <i class="far fa-check-square" /> Eliminate bloating
                   </p>
                   <p className="points">
                     <i class="far fa-check-square" /> Increase energy
                   </p>
                   <p className="points">
-                    <i class="far fa-check-square" /> Eliminate bloat
+                    <i class="far fa-check-square" /> Boost immunity
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Clear skin
+                  </p>
+                  <p className="points">
+                    <i class="far fa-check-square" /> Detoxify your body
                   </p>
                 </div>
               </Col>
@@ -63,7 +63,7 @@ class Home extends Component {
           </Grid>
         </div>
         <Grid>
-          <div className="main-div pic-four">
+          <div className="main-div-about pic-four">
             <Row>
               <Col xs={6} md={5} />
               <Col xs={6} md={7}>
