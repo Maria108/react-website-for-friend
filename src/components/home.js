@@ -67,8 +67,18 @@ class Home extends Component {
             <Row>
               <Col xs={6} md={5} />
               <Col xs={6} md={7}>
-                <div className="on-top">
-                  <p>Hi I'm Lena and I'm your therapist. I'm very cool and professional, you can trust me your butt.</p>
+                <div className="bio">
+                  <p>
+                    ELENA BYKOVA moved to NY from Russia, Siberia in 2010. Armed with a bachelor degree in Mathematics,
+                    Elena was on the fast track towards a career in finance, but soon realized how unfulfilling and
+                    meaningless this path was. Eventually, she moved to the USA alone and started a new life. Passionate
+                    about health and nutrition, her decision to refocus her studies and professional career came
+                    naturally when in 2013 she became a part of the Gravity East Village team. Elena became extremely
+                    knowledgeable about holistic living, cleansing and detoxification, and healthy lifestyle. After a
+                    year of witnessing all the many happy clients exiting the colonic room and watching the incredible
+                    positive change Colon Hydro-therapy made on them, she became inspired to become a therapist herself.
+                    Elena has enjoyed working as a Colon Hydro-therapist for several years now.
+                  </p>
                 </div>
               </Col>
             </Row>
