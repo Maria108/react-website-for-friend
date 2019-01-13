@@ -150,11 +150,14 @@ class About extends Component {
                       the body ad loosen the waste. Avoid caffein, alcohol and tobacco as it dehydrates the body and
                       creates inflammation.
                     </p>
-                    <p className="info-about-colon-2">
+                    <p className="info-about-colon">
                       Cut back on animal protein, dairy, fried foods, legumes and processed foods. Its best to consume
                       fresh fruits and veggies, salads, whole grains, veggie juices, soups for an easy and effective
-                      release. Avoid any carbonated and bubbly drinks, as it creates bloating and gas and makes it
-                      harder for the water to move through the colon.
+                      release.
+                    </p>
+                    <p className="info-about-colon-2">
+                      Avoid any carbonated and bubbly drinks, as it creates bloating and gas and makes it harder for the
+                      water to move through the colon.
                     </p>
                   </div>
                 </Col>
