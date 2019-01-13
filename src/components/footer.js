@@ -13,10 +13,13 @@ class Footer extends Component {
               <div>
                 <p>Contact</p>
                 <p>
-                  <i class="fas fa-map-marker-alt" /> 370 8th Ave New York
+                  <i class="fas fa-map-marker-alt" /> 313 7th St, Brooklyn, NY, 11215
                 </p>
                 <p>
-                  <i class="fas fa-phone" /> 917-654-2345
+                  <i class="fas fa-phone" /> 646-385-9985
+                </p>
+                <p>
+                  <i class="far fa-clock" /> Fri 8:00AM - 7:00PM
                 </p>
               </div>
             </Col>
