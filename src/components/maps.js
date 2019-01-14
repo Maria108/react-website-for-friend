@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import './contacts.css';
 
 const API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 
@@ -43,10 +46,16 @@ export class MapContainer extends Component {
             lng: -73.98586,
           }}
         >
-          <Marker onClick={this.onMarkerClick} name={'Park Slope Colonics 313 7th St Brooklyn'} />
+          <Marker onClick={this.onMarkerClick} />
           <InfoWindow marker={this.state.activeMarker} visible={this.state.showingInfoWindow} onClose={this.onClose}>
             <div>
-              <h4>{this.state.selectedPlace.name}</h4>
+              <h4 className="marker-name">Park Slope Colonics</h4>
+              <h4>313 7th St Brooklyn</h4>
+              <BrowserRouter>
+                <Link className="link-to-direction" to="/map">
+                  Get Directions
+                </Link>
+              </BrowserRouter>
             </div>
           </InfoWindow>
         </Map>
