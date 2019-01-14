@@ -12,7 +12,7 @@ class Home extends Component {
             <Row>
               <Col xs={6} md={7}>
                 <div className="on-top">
-                  <p>Powerful detoxication methods for healthy life</p>
+                  <p>Powerful detoxication methods for a healthy life</p>
                 </div>
                 <div>
                   <p className="points">
@@ -41,21 +41,21 @@ class Home extends Component {
               <Col xs={12} md={4}>
                 <div className="page-link">
                   <Link className="img-page-link" to="/About">
-                    About colonic
+                    ABOUT COLONIC
                   </Link>
                 </div>
               </Col>
               <Col xs={12} md={4}>
                 <div className="page-link">
-                  <Link className="img-page-link" to="/About">
-                    Do's & Dont'
+                  <Link className="img-page-link" to="/Faq">
+                    FAQ and PRICE
                   </Link>
                 </div>
               </Col>
               <Col xs={12} md={4}>
                 <div className="page-link">
                   <Link className="img-page-link" to="/Customers">
-                    Testimonials
+                    TESTIMONIALS
                   </Link>
                 </div>
               </Col>

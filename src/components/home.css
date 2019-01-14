@@ -22,13 +22,13 @@
   background-size: cover;
   background-attachment: fixed;
   margin-top: 40px;
+  padding-top: 45%;
+  font-size: 30px;
+  text-align: center;
 }
 
 .img-page-link {
-  padding-left: 20%;
-  color: white;
-  font-size: 40px;
-  line-height: 300px;
+  color: white !important;
 }
 
 .pic-one {
