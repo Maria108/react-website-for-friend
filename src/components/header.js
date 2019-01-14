@@ -10,7 +10,7 @@ class Header extends Component {
       <Navbar fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">Park Slope Colonics</Link>
+            <Link to="/">PARK SLOPE COLONICS</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -35,7 +35,7 @@ class Header extends Component {
               <Link to="/Customers">TESTIMONIALS</Link>
             </NavItem>
             <NavItem eventKey={4}>
-              <Link to="/Contacts">CONTACTS</Link>
+              <Link to="/Contacts">CONTACT</Link>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
