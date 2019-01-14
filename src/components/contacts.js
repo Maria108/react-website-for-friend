@@ -25,23 +25,7 @@ class Contacts extends Component {
               </Col>
               <Col xs={12} md={6}>
                 <div className="my-maps">
-                  <Maps />
-                  <div className="address">
-                    <Row>
-                      <Col xs={1} md={1} className="map-icon">
-                        <i class="fas fa-map-marker-alt" />
-                      </Col>
-                      <Col xs={12} md={5}>
-                        <p>Park Slope Colonics</p>
-                        <p> 313 7th St Brooklyn</p>
-                      </Col>
-                      <Col xs={12} md={5}>
-                        <div className="direction">
-                          <Link to="/map">Direction</Link>
-                        </div>
-                      </Col>
-                    </Row>
-                  </div>
+                  <MapContainer />
                 </div>
               </Col>
             </Row>
